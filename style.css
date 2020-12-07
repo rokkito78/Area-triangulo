@@ -1,0 +1,26 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.contenido {
+    text-align: center;
+    margin-top: 20px;
+    background-color: aqua;
+}
+
+.cuadros {
+    width: auto;
+    display: inline-block;
+    margin-left: auto;
+}
+
+.btn {
+    margin-top: 20px;
+}
+
+#resultado {
+    margin-top: 20px;
+    width: 30px;
+    margin-left: auto;
+}

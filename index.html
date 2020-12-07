@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular Área Triangulo</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+    <div class="contenido">
+        <h3>Área de un triángulo</h3>
+        <div class="cuadros">
+            <input type="number" id="base" placeholder="Base" class="form-control">
+            <input type="number" id="altura" placeholder="Altura" class="form-control">
+            <button onclick="areatriangulo()" class="btn btn-success">Calcular área</button>
+
+        </div>
+        <div class="area">
+            <label>Área: </label>
+            <div id="areashow">
+                <input type="text" id="Resultado" placeholder="Resultado" class="form-control">
+            </div>
+
+
+        </div>
+    </div>
+    <!--
+<script>
+
+function areatriangulo(){
+    
+    var base = document.getElementById("base").value;
+    var altura = document.getElementById("altura").value;
+    var area = ((base*altura)/2);
+    var areashow = document.getElementById("areashow").innerHTML = "El área del triángulo es : " + area + " m2";
+    return areashow;
+}
+
+//var area = areatriangulo(3,4);
+
+
+
+
+</script> -->
+
+</body>
+
+</html>
